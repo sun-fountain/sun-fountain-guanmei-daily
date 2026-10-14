@@ -4,7 +4,7 @@
 """
 import json, glob, os, re, html as H, hashlib, datetime
 
-SITE = os.path.join("site"); os.makedirs(SITE, exist_ok=True)
+SITE = os.path.join("docs"); os.makedirs(SITE, exist_ok=True)
 
 LOCK_TMPL = """
 <div id="lock" style="position:fixed;inset:0;background:#f6f5f1;z-index:99;display:flex;flex-direction:column;align-items:center;justify-content:center;font-family:sans-serif">
